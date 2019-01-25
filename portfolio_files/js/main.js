@@ -133,7 +133,14 @@ $(window).on("load",function (){
     });
 
     // filter items on button click
-    $('.filtering, .filtering-2').on( 'click', 'span', function() {
+    $('.filtering').on( 'click', 'span', function() {
+
+        var filterValue = $(this).attr('data-filter');
+
+        $grid.isotope({ filter: filterValue });
+
+    });
+    $('.filtering-2').on( 'click', 'span', function() {
 
         var filterValue = $(this).attr('data-filter');
 
@@ -141,7 +148,12 @@ $(window).on("load",function (){
 
     });
 
-    $('.filtering, .filtering-2').on( 'click', 'span', function() {
+    $('.filtering').on( 'click', 'span', function() {
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+    });
+    $('.filtering-2').on( 'click', 'span', function() {
 
         $(this).addClass('active').siblings().removeClass('active');
 
