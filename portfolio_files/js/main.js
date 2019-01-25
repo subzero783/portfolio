@@ -133,7 +133,7 @@ $(window).on("load",function (){
     });
 
     // filter items on button click
-    $('.filtering-1').on( 'click', 'span', function() {
+    $('.filtering-1, .filter-2').on( 'click', 'span', function() {
 
         var filterValue = $(this).attr('data-filter');
 
@@ -141,7 +141,7 @@ $(window).on("load",function (){
 
     });
 
-    $('.filtering-2').on( 'click', 'span', function() {
+    $('.filtering-1, .filter-2').on( 'click', 'span', function() {
 
         $(this).addClass('active').siblings().removeClass('active');
 
