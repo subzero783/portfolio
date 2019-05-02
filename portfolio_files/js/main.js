@@ -119,8 +119,6 @@ $(function () {
 
 
 $(window).on("load",function (){
-	
-     $('.load-wrapp').fadeOut(100);
        
    /* isotope */
     $('.grid').isotope({
