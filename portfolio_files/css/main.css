@@ -1426,10 +1426,10 @@ textarea {
 
 /* SCROLLING */
 #section07 {
-	bottom: 25%;
-	position: absolute;
+	width: 200px;
+	height: 200px;
+	position: relative;
 	margin: -200px auto 0 auto;
-	left: 47%;
 }
 #section07::after {
   position: absolute;
