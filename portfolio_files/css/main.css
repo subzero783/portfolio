@@ -768,7 +768,7 @@ h6{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.4);
 	background-blend-mode: overlay;
     overflow: hidden;
 	-webkit-clip-path: none;
