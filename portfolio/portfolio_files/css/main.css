@@ -1506,3 +1506,9 @@ textarea {
   height: 39px;
   background: url(../../../hiperstudio_files/img/Hiper-Studio-small-logo-colored.png) center center/contain no-repeat;
 }
+
+@media only screen and (max-width: 768px){
+  #particles-js {
+    height: 50%;
+  }
+}
