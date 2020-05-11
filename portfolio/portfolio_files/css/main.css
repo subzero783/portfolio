@@ -36,7 +36,7 @@ the content
 }
 
 .color-f2c514 {
-	color: #f2c514;
+	color: #f2795c;
 }
 
 body {
@@ -276,8 +276,8 @@ h6{
 .color-ccc{color: #ccc;}
 .color-bbb{color: #bbb;}
 .color-aaa{color: #aaa;}
-.color-orange{color: #f2c514}
-.color-orange-hvr:hover{color: #f2c514;}
+.color-orange{color: #f2795c}
+.color-orange-hvr:hover{color: #f2795c;}
 .color-fff-hvr:hover{color: #fff;}
 .color-gold{color:  #ecb312;}
 
@@ -288,8 +288,8 @@ h6{
 .bg-eee{background-color: #eee;}
 .bg-222{background-color: #222;}
 .bg-333{background-color: #333;}
-.bg-orange{background-color: #f2c514;}
-.bg-orange-hvr:hover{background-color: #f2c514;}
+.bg-orange{background-color: #f2795c;}
+.bg-orange-hvr:hover{background-color: #f2795c;}
 .bg-333-hvr:hover{background-color: #333;}
 .bg-fff-hvr:hover{background-color: #fff;}
 
@@ -365,7 +365,7 @@ h6{
 /* btn-1 */
 .btn-1{
     padding: 10px 26px;
-	background-color: #f2c514;
+	background-color: #f2795c;
 	color: #fff;
 }
 .btn-1:hover{color: #333;}
@@ -395,12 +395,12 @@ h6{
 /* btn-3 */
 .btn-3{
     padding: 9px 25px;
-	background-color: #f2c514;
+	background-color: #f2795c;
 	color: #fff;
-	border: 1px solid #f2c514;
+	border: 1px solid #f2795c;
 }
 
-.btn-3:hover{color: #f2c514;}
+.btn-3:hover{color: #f2795c;}
 
 .btn-3.back-f6f6f6:before{background-color: #f6f6f6;}
 
@@ -541,7 +541,7 @@ h6{
   border: none;
 }
 .load-wrapp .wrap ul.dots-box li.dot span {
-  background: #f2c514;
+  background: #f2795c;
   bottom: 0px;
   left: 50%;
   margin-left: -2px;
@@ -656,7 +656,7 @@ h6{
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
-	color: #f2c514;
+	color: #f2795c;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -665,7 +665,7 @@ h6{
 }
 
 .navbar .navbar-nav .nav-link.active{
-	color: #f2c514;
+	color: #f2795c;
 }
 
 .navbar-toggler:focus{
@@ -702,7 +702,7 @@ h6{
 }
 
 .navbar-colored .navbar-nav .nav-link.active{
-	color: #f2c514;
+	color: #f2795c;
 }
 
 .navbar-colored .navbar-toggler .fa-bars{
@@ -980,13 +980,13 @@ h6{
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgb(242, 197, 20);
+	background-color: #f2795c;
 	z-index: -1;
 	transition: all 0.3s ease-in-out;
 }
 
 .services-area .mt-25px:hover:before{
-	background-color: rgb(242, 197, 20);
+	background-color: #f2795c;
 	top: 0;
 }
 
@@ -1055,7 +1055,7 @@ h6{
 }
 
 .testimonials .owl-theme .owl-nav [class*=owl-]:hover{
-	color: #f2c514;
+	color: #f2795c;
 }
 
 .testimonials .owl-carousel .owl-nav .owl-next{
@@ -1077,8 +1077,8 @@ h6{
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span{
-	background-color: #f2c514;
-	border: 1px solid #f2c514;
+	background-color: #f2795c;
+	border: 1px solid #f2795c;
 }
 
 /***** for creative-demo *****/
@@ -1106,7 +1106,7 @@ h6{
 }
 
 .work-area .filtering .active {
-    background-color: #f2c514;
+    background-color: #f2795c;
     color: #fff;
 }
 
@@ -1141,7 +1141,7 @@ h6{
 }
 
 .work-area .overlay-bg .fa-long-arrow-right:hover{
-	border-color: #f2c514;
+	border-color: #f2795c;
 }
 
 .work-area .work-image p{
@@ -1306,14 +1306,14 @@ h6{
 
 .contact-form input[type='submit']{
 	padding: 10px 25px;
-	border: 1px solid #f2c514;
+	border: 1px solid #f2795c;
     outline: 0;
     box-shadow: none;
 }
 
 .contact-form input[type='submit']:hover {
     background-color: transparent;
-	border-color: #f2c514;
+	border-color: #f2795c;
     outline: 0;
     box-shadow: none;
 	cursor: pointer;
@@ -1406,14 +1406,14 @@ textarea {
  
 .blog-details .form input[type='submit']{
 	padding: 10px 25px;
-	border: 1px solid #f2c514;
+	border: 1px solid #f2795c;
     outline: 0;
     box-shadow: none;
 }
 
 .blog-details .form input[type='submit']:hover {
     background-color: transparent;
-	border-color: #f2c514;
+	border-color: #f2795c;
     outline: 0;
     box-shadow: none;
 	cursor: pointer;
@@ -1448,8 +1448,8 @@ textarea {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 8px solid #f2c514;
-  border-bottom: 8px solid #f2c514;
+  border-left: 8px solid #f2795c;
+  border-bottom: 8px solid #f2795c;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb07 2s infinite;
