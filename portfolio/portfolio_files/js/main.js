@@ -155,6 +155,8 @@ $(window).on("load",function (){
 
     });
 
+    $grid.isotope({filter: '.Website'});
+
     $('.filtering').on( 'click', 'span', function() {
 
         $(this).addClass('active').siblings().removeClass('active');

@@ -1471,6 +1471,7 @@ textarea {
   -webkit-animation-delay: .3s;
   animation-delay: .3s;
 }
+
 @-webkit-keyframes sdb07 {
   0% {
     opacity: 0;
@@ -1492,4 +1493,16 @@ textarea {
   100% {
     opacity: 0;
   }
+}
+
+/* HIPER STUDIO CSS */
+#top-nav-logo {
+  height: 29px;
+  width: 300px;
+  background:url(../../../hiperstudio_files/img/Hiper-Studio-logo-white.png) center center/cover no-repeat;
+}
+
+.navbar-colored #top-nav-logo {
+  height: 39px;
+  background: url(../../../hiperstudio_files/img/Hiper-Studio-small-logo-colored.png) center center/contain no-repeat;
 }
