@@ -1,0 +1,6 @@
+*
+!hiperstudio_files/
+!portfolio/
+!index.html
+!.gitignore
+!package.json
