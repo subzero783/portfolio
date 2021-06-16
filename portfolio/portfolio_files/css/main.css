@@ -1267,12 +1267,7 @@ h6{
 	display: inline-block;
 }
 
-.contact-area .linkedin i{
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
-	display: inline-block;
-}
+
 
 .contact-form {
     border-radius: 3px;
@@ -1515,7 +1510,17 @@ textarea {
 }
 
 .linkedin-link {
+	display: inline-block;
+	margin-top: 20px;
+
+}
+
+.contact-area .linkedin i{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
 	display: block;
+	margin: 0 auto;
 }
 
 .header-buttons > a {
