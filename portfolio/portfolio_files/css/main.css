@@ -1267,6 +1267,13 @@ h6{
 	display: inline-block;
 }
 
+.contact-area .linkedin i{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	display: inline-block;
+}
+
 .contact-form {
     border-radius: 3px;
 }
@@ -1495,20 +1502,35 @@ textarea {
   }
 }
 
-/* HIPER STUDIO CSS */
+/* CSS */
 #top-nav-logo {
-  height: 29px;
-  width: 300px;
-  background:url(../../../hiperstudio_files/img/Hiper-Studio-logo-white.png) center center/cover no-repeat;
+  height: 127px;
+  width: 120px;
+  background:url(../images/Apex-Design-logo-white.png) center center/cover no-repeat;
 }
 
 .navbar-colored #top-nav-logo {
-  height: 39px;
-  background: url(../../../hiperstudio_files/img/Hiper-Studio-small-logo-colored.png) center center/contain no-repeat;
+  height: 100px;
+  background: url(../images/Apex-Design-logo-colored.png) center center/contain no-repeat;
+}
+
+.linkedin-link {
+	display: block;
+}
+
+.header-buttons > a {
+	display: inline-block;
+}
+
+.header-buttons > a:nth-child(1) {
+	margin-right: 20px;
 }
 
 @media only screen and (max-width: 768px){
   #particles-js {
     height: 50%;
+  }
+  .header-buttons > a {
+	margin-bottom: 20px;
   }
 }
