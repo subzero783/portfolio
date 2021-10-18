@@ -16,7 +16,7 @@ var QuizUI = {
 
         for(var i = 0; i < choices.length; i++) {
             this.populateIdWithHTML("choice" + i, choices[i]);
-            this.guessHandler("guess" + i, choices[i]);
+            this.guessHandler("choice" + i, choices[i]);
         }
     },
     displayScore: function() {
