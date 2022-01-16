@@ -705,6 +705,10 @@ h6{
 	color: #f2795c;
 }
 
+.navbar-nav {
+	margin: 0 auto;
+}
+
 .navbar-colored .navbar-toggler .fa-bars{
 	color: #333;
 }
